@@ -1,7 +1,110 @@
-.tianjia{
+.tianjia {
+  color: #A4A4A4;
+  /* border: 1px solid #000; */
+  margin: 0.5rem 0.5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+
+.tianjia span {
+  margin-left: 0.5rem;
   color: #A4A4A4;
 }
-.tianjia span{
-  margin-left: 5%;
-  color: #A4A4A4;
+
+.main_div {
+  background-color: #fff;
+  /* height: 50px; */
+  margin: 0.5rem 0.5rem;
 }
+
+.main_div ul {
+  min-height: 50px;
+  height: auto;
+}
+
+.clearfloat {
+  clear: both;
+  height: 0;
+  font-size: 1px;
+  line-height: 0px;
+}
+/*需要调整*/
+.main_div li {
+  position: relative;
+  float: left;
+  width: 25%;
+  /* padding-bottom: 25%;   */
+  height: 25%;
+  padding: 10px;
+  background-color: #fff;
+  /* border: 1px solid #f44; */
+}
+
+.main_div li img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+.delete_img{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#fbspxx{
+  /* width: 100%; */
+  margin: 0.5rem 0.5rem;
+}
+#fbspxx li{
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  height: 50px;
+  margin-bottom: 2px;
+}
+#fbspxx li:last-child{
+  margin-top: 12px;
+  margin-bottom: 2px;
+}
+#fbspxx li span{
+  margin-left: 1rem;
+  line-height :50px;
+  font-size: 16px;
+  font-weight:bold;
+}
+/* #fbspxx li input,#fbspxx li select{
+  text-align: right;
+  margin-right: 1rem;
+  position: absolute;
+  right: 0;
+  height :48px;
+} */
+
+#fbspxx li .left{
+  /* width:100px; */
+  height:100%;
+  /* background: gray; */
+  float: left;
+}
+#fbspxx li .right{
+  overflow:hidden;  /* 触发bfc */
+  background: green;
+  height: 100%;
+  margin-right: 20px;
+}
+/* #fbspxx li .right .shuru11{
+  width:100%;
+  height: 100%;
+  text-align: right;
+  text-indent:2em;
+  height :48px;
+} */
+#fbspxx li .right .shuru11{
+  width:100%;
+  height: 100%;
+  border: 0;
+  font-size: 100%;
+  text-align: right;
+  direction: rtl;
+}
+
