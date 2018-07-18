@@ -14,3 +14,18 @@ select{
  -webkit-appearance:none;
   padding-right: 14px;
 }
+.button-bgc1{
+  border: 0;
+  color: #fff;
+  background: linear-gradient(to right, #FF5402 , #FF027B);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.button-bgc2{
+  border: 0;
+  color: #fff;
+  background: linear-gradient(to right, #FF5402 , #FF027B);
+}
