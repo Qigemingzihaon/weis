@@ -1,25 +1,35 @@
+
 .tianjia {
   color: #A4A4A4;
   /* border: 1px solid #000; */
-  margin: 11px 11px;
+  margin: 0rem 0.1rem;
+  height: 0.63rem;
   font-weight: bold;
   /* padding: 11px; */
 }
 
 .tianjia span {
-  margin-left: 8px;
-  font-size: 15px;
-  color: #A4A4A4;
+	width: 1.42rem;
+	height: 0.23rem;
+	font-family: SourceHanSansCN-Regular;
+	font-size: 0.24rem;
+	font-weight: normal;
+  font-stretch: normal;
+  margin-left: 0.2rem;
+	line-height: 0.63rem;
+	letter-spacing: 0rem;
+	color: #999999;
 }
 
 .main_div {
-  background-color: #fff;
-  /* height: 50px; */
-  margin: 8px 8px;
+  width: 7.3rem;
+	height: 1.85rem;
+	background-color: #ffffff;
+  margin: 0.08rem 0.08rem;
 }
 
 .main_div ul {
-  min-height: 50px;
+  min-height: 0.5rem;
   height: auto;
 }
 
@@ -34,7 +44,7 @@
   width: 25%;
   /* padding-bottom: 25%;   */
   height: 25%;
-  padding: 10px;
+  padding: 0.1rem;
   background-color: #fff;
   /* border: 1px solid #f44; */
 }
@@ -47,27 +57,27 @@
 }
 .delete_img{
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 0.1rem;
+  left: 0.1rem;
 }
 #fbspxx{
   /* width: 100%; */
-  margin: 10px 10px;
+  margin: 0.1rem 0.1rem;
 }
 #fbspxx li{
   position: relative;
   width: 100%;
   background-color: #fff;
-  height: 55px;
-  margin-bottom: 2px;
+  height: 0.55rem;
+  margin-bottom: 0.02rem;
 }
 #fbspxx li:last-child{
-  margin-top: 15px;
+  margin-top: 0.15rem;
 }
 #fbspxx li span{
-  margin-left: 13px;
-  line-height :55px;
-  font-size: 16px;
+  margin-left: 0.13rem;
+  line-height :0.55rem;
+  font-size: 0.16rem;
   font-weight:bold;
 }
 
@@ -77,9 +87,9 @@
 }
 #fbspxx li .right{
   overflow:hidden;  /* 触发bfc */
-  background: green;
+  /* background: green; */
   height: 100%;
-  margin-right: 10px;
+  margin-right: 0.1rem;
 }
 
 #fbspxx li .right .shuru11{
@@ -92,11 +102,11 @@
 }
 .fabubutton{
   width: 100%;
-  margin-top: 80px;
+  margin-top: 0.8rem;
 }
 .button-wh{
-  width: 336px;
-  height: 51px;
+  width: 3.36rem;
+  height: 0.51rem;
   display:block;
   margin: auto;
   outline:0;
