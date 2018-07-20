@@ -1,97 +1,150 @@
-.wsmj{
+.wsmj {
   width: 7.3rem;
-	height: 2rem;
-	background-image: linear-gradient(0deg, 
-		#ff5500 0%, 
-		#ff9b78 100%), 
-	linear-gradient(
-		#ffa61b, 
-		#ffa61b);
-	background-blend-mode: normal, 
-    normal;
-    margin: 0.1rem;
-    position: relative;
+  height: 2rem;
+  background-image: linear-gradient(0deg, #ff5500 0%, #ff9b78 100%), linear-gradient( #ffa61b, #ffa61b);
+  background-blend-mode: normal, normal;
+  margin: 0.1rem;
+  position: relative;
 }
-.wsmj h3{
+
+.wsmj h3 {
   width: 100%;
   height: 0.64rem;
-	font-family: FZZCHJW--GB1-0;
-	font-size: 0.7rem;
-	font-weight: normal;
+  font-family: FZZCHJW--GB1-0;
+  font-size: 0.7rem;
+  font-weight: normal;
   font-stretch: normal;
-  text-align:center;
-	line-height: 0.36rem;
-	letter-spacing: 0.14rem;
+  text-align: center;
+  line-height: 0.36rem;
+  letter-spacing: 0.14rem;
   color: #ffffff;
   position: absolute;
   top: 0.48rem;
 }
-.wsmj h5{
+
+.wsmj h5 {
   width: 100%;
-	height: 0.27rem;
-	font-family: PingFang-SC-Medium;
-	font-size: 0.26rem;
-	font-weight: normal;
+  height: 0.27rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.26rem;
+  font-weight: normal;
   font-stretch: normal;
-  text-align:center;
-	line-height: 0.36rem;
-	letter-spacing: 0rem;
+  text-align: center;
+  line-height: 0.36rem;
+  letter-spacing: 0rem;
   color: #ffffff;
   position: absolute;
   top: 1.31rem;
 }
-.form1{
+
+.form1 {
   width: 7.3rem;
-	height: 4.28rem;
+  height: 4.28rem;
   background-color: #ffffff;
   margin: 0 0.1rem;
 }
-form h1{
-	height: 0.26rem;
-	font-family: PingFang-SC-Medium;
-	font-size: 0.26rem;
-	font-weight: normal;
-	font-stretch: normal;
-	line-height: 0.26rem;
-	letter-spacing: 0rem;
+
+form h1 {
+  height: 0.26rem;
+  font-family: PingFang-SC-Medium;
+  font-size: 0.26rem;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 0.26rem;
+  letter-spacing: 0rem;
   color: #666666;
   margin-left: 0.2rem;
   padding-top: 0.4rem;
 }
-.form1 input{
+
+.form1 input {
   width: 6.9rem;
-	height: 0.88rem;
+  height: 0.88rem;
   background-color: #ffffff;
   /* border: 0;
 	box-shadow: 0rem 0.01rem 0rem 0rem 
     #e5e5e5; */
   margin-left: 0.2rem;
 }
-.form1 form1xm{
+
+.form1 form1xm {
   width: 6.9rem;
-	height: 0.88rem;
+  height: 0.88rem;
   background-color: #ffffff;
   border: 0;
-	box-shadow: 0rem 0.01rem 0rem 0rem 
-    #e5e5e5;
+  box-shadow: 0rem 0.01rem 0rem 0rem #e5e5e5;
   margin-left: 0.2rem;
 }
-.form1 select{
+
+.form1 select {
   width: 6.9rem;
-	height: 0.88rem;
+  height: 0.88rem;
   background-color: #ffffff;
   border: 0;
-	box-shadow: 0rem 0.01rem 0rem 0rem 
-    #e5e5e5;
+  box-shadow: 0rem 0.01rem 0rem 0rem #e5e5e5;
   margin-left: 0.2rem;
 }
-.form1 input:last-child{
+
+.form1 input:last-child {
   border: 0;
   border-top: 0.01rem solid #e5e5e5;
   /* border-bottom: 0.00rem solid #e5e5e5; */
 }
-.form1xm{
+
+.form1xm {
   border: 0;
   /* border-top: 0.01rem solid #e5e5e5; */
   border-bottom: 0.01rem solid #e5e5e5;
+}
+.shuru11{
+  font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #cccccc;
+}
+.form1xm1::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #cccccc;
+}
+
+.form1xm1:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #cccccc;
+}
+
+.form1xm1::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #cccccc;
+}
+
+.form1xm1:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-family: PingFang-SC-Medium;
+	font-size: 0.28rem;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 0.36rem;
+	letter-spacing: 0rem;
+	color: #cccccc;
 }
